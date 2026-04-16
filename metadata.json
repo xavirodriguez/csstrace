@@ -1,0 +1,6 @@
+{
+  "name": "Chrome CSS Origin Exporter",
+  "description": "Una extensión de Chrome para extraer elementos web con sus estilos CSS clasificados por origen (Bootstrap, Tailwind o App).",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

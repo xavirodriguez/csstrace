@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "CSS Origin Exporter",
+  "version": "1.0.0",
+  "description": "Exporta fragmentos HTML identificando estilos de Bootstrap y Tailwind.",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
